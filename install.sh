@@ -6,5 +6,5 @@ I=$(find ~/Library/Preferences -type d -name IntelliJIdea* -o -type d -name Idea
 for temp in $I; do
 	X="$I/keymaps/Windows Keymap with Command.xml"
 	echo Installing as $X
-	curl "https://raw.github.com/raq154/intellij-windows-keymap-on-mac/master/Windows%20Keymap%20with%20Command.xml" > "$X"
+	curl "https://raw.githubusercontent.com/raq154/intellij-windows-keymap-on-mac/master/Windows%20Keymap%20with%20Command.xml" > "$X"
 done
